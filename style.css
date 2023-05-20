@@ -1,0 +1,54 @@
+body{
+    margin: 0; /* removing default margin */
+    /* specifying the line, this is going to left bottom. and colors*/
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue, black);
+    min-height: 100vh; /* 100 percent viewport height, it means if we zoom it, the height will still be the same*/
+
+    display: flex;
+    justify-content: center; /*making everything center horizontally*/
+    align-items: center; /* making everything center vertically*/
+    font-family: monospace;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3); /*x axes value, y axes value, blurness, opacity (color)*/
+    border-radius: 15px;
+    width:85%; /* making the container to take 85 percent*/
+    text-align: center; /* setting the text alignment to centers*/
+    color: darkgreen; /* text color*/
+}
+
+.heading{
+    font-size: 35px; /* fontsize*/
+    font-weight: 200; /* font thickness*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+    letter-spacing: 2px; /* space between letters*/
+}
+
+.joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px; /* creating space outside around the element*/
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px; /* creating space inside around the element*/
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .6);
+    text-transform: uppercase; /* making all the letters uppercase*/
+    width: 300px;
+    color: darkgreen;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+    transition: all 300ms ease; /* adding transition to all, 300 ms and ease effect*/
+}
