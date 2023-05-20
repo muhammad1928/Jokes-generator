@@ -4,7 +4,7 @@ const jokeEl  =document.getElementById('joke')
 
 const apiKey ="pWTyPj86tz4OjCmJWE2b3g==TqtWVdO3QbsGMf9K";
 
-/* Passing the api key */
+/* Passing the api key */  
 const options = {
     method: "GET",
     headers: {
